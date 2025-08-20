@@ -9,8 +9,8 @@
     "index": "node index.js"
   },
   "dependencies": {
-    "@google/genai": "^1.12.0",
-    "@langchain/community": "^0.3.49",
+    "@google/genai": "^1.15.0",
+    "@langchain/community": "^0.3.53",
     "@langchain/core": "^0.3.66",
     "@langchain/google-genai": "^0.2.16",
     "@langchain/pinecone": "^0.2.0",
@@ -22,8 +22,11 @@
     "fs": "^0.0.1-security",
     "multer": "^2.0.2",
     "node-fetch": "^3.3.2",
+    "os": "^0.1.2",
     "path": "^0.12.7",
     "pdf-parse": "^1.1.1",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "stream": "^0.0.3",
+    "util": "^0.12.5"
   }
 }
