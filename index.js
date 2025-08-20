@@ -10,7 +10,7 @@ import { PineconeStore } from '@langchain/pinecone';
 
 async function indexDocument() {
     
-const PDF_PATH = './pdf2_merged.pdf'; // Path to your PDF file
+const PDF_PATH = './pdf2_merged.pdf'; 
 const pdfLoader = new PDFLoader(PDF_PATH);
 const rawDocs = await pdfLoader.load();
 console.log("PDF loaded");
